@@ -1,0 +1,22 @@
+{
+  "name": "dva-hot-reload",
+  "version": "0.1.0",
+  "description": "hot reload plugin for dva framework (react/redux)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaner/dva-hot-reload.git"
+  },
+  "keywords": [
+    "dva"
+  ],
+  "author": "joaner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaner/dva-hot-reload/issues"
+  },
+  "homepage": "https://github.com/joaner/dva-hot-reload#readme"
+}
