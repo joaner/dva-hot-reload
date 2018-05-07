@@ -13,7 +13,7 @@ class Count extends React.Component {
 
   render() {
     return <div>
-      <span>count: {0}</span>
+      <span>count: {this.props.count.count}</span>
       <span> ; </span>
       <span>local count: {this.state.localCount}</span>
     </div>;
@@ -21,4 +21,4 @@ class Count extends React.Component {
 }
 
 
-export default connect(({count}) => ({count}))(hot(module)(Count));
+export default connect(({count}) => ({count}))(hot(module)(Count))

@@ -10,4 +10,4 @@ function Home() {
   );
 }
 
-export default connect()(hot(module)(Home));
+export default connect()(hot(module)(Home))
