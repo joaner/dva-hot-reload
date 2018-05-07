@@ -3,7 +3,8 @@
   "dependencies": {
     "dva": "^2.2.3",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "react-hot-loader": "^4.1.2"
   },
   "devDependencies": {
     "roadhog": "^2.0.0"

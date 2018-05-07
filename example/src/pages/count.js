@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'dva';
+import { hot } from 'react-hot-loader'
 
 class Count extends React.Component {
   constructor(props) {
@@ -20,4 +21,4 @@ class Count extends React.Component {
 }
 
 
-export default connect(({count}) => ({count}))(Count);
+export default connect(({count}) => ({count}))(hot(module)(Count));

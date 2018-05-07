@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'dva';
+import { hot } from 'react-hot-loader'
 
 function Home() {
   return (
@@ -9,4 +10,4 @@ function Home() {
   );
 }
 
-export default connect()(Home);
+export default connect()(hot(module)(Home));
